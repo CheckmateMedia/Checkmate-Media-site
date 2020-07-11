@@ -1,0 +1,266 @@
+Please help us figure out how to get these png imgs properly floated on the css chess board we created that we intend to turn into a playable chess game with JavaScript.  
+
+Here is the code with the rows commented.  The images appear correctly in only two culms, 
+and then the floated images start appearing to the side of the divs insted of inside the corresponding colored divs. 
+
+<! !DOCTYPE html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <html>
+    <!-- Row 1 -->
+
+
+    <div
+        style="position: absolute; font-size: 0%; width: 50px; height: 50px; border: 3px solid grey; display: inline-block; background-color: grey;">
+    </div>
+
+    <img src="bR.png"
+        style="cursor: pointer; position: relative; font-size: 0%; width: 50px; height: 50px;  display: inline-block;">
+    </img>
+    <img src="bN.png"
+        style="cursor: pointer; position: relative; font-size: 0%; width: 50px; height: 50px;  display: inline-block;">
+    </img>
+    <img src="bB.png"
+        style=" cursor: pointer; position: relative; font-size: 0%; width: 50px; height: 50px;  display: inline-block;">
+    </img>
+    <img src="bQ.png"
+        style="cursor: pointer; position: relative; font-size: 0%; width: 50px; height: 50px;  display: inline-block;">
+    </img>
+    <img src="bK.png"
+        style="cursor: pointer; position: relative; font-size: 0%; width: 50px; height: 50px;  display: inline-block;">
+    </img>
+    <img src="bB.png"
+        style="cursor: pointer; position: relative; font-size: 0%; width: 50px; height: 50px;  display: inline-block;">
+    </img>
+    <img src="bN.png"
+        style="z-index: 2; cursor: pointer; position: relative; font-size: 0%; width: 50px; height: 50px;  display: inline-block;">
+    </img>
+    <img src="bR.png"
+        style="cursor: pointer; position: relative; font-size: 0%; width: 50px; height: 50px;  display: inline-block;">
+    </img>
+
+    <div
+        style=" float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <!-- Row 2 --><br>
+    <img src="bP.png"
+        style="cursor: pointer; position: fixed; font-size: 0%; width: 50px; height: 50px; display: inline-block;">
+    </img>
+    <div
+        style=" font-size: 0%; width: 50px; height: 50px; border: 3px solid white; display: inline-block; background-color: white;">
+    </div>
+
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+
+
+    <!-- Row 3 --><br>
+    <div
+        style="font-size: 0%; width: 50px; height: 50px; border: 3px solid grey; display: inline-block; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+
+    <!-- Row 4 --><br>
+    <div
+        style="font-size: 0%; width: 50px; height: 50px; border: 3px solid white; display: inline-block; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+
+    <!-- Row 5 --><br>
+    <div
+        style="font-size: 0%; width: 50px; height: 50px; border: 3px solid grey; display: inline-block; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+
+    <!-- Row 6 --><br>
+    <div
+        style="font-size: 0%; width: 50px; height: 50px; border: 3px solid white; display: inline-block; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+
+    <!-- Row 7 --><br>
+    <div
+        style="font-size: 0%; width: 50px; height: 50px; border: 3px solid grey; display: inline-block; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+
+    <!-- Row 8 --><br>
+    <div
+        style="font-size: 0%; width: 50px; height: 50px; border: 3px solid white; display: inline-block; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid white; background-color: white;">
+    </div>
+    <div
+        style="float: left; font-size: 0%; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; width: 50px; height: 50px;border: 3px solid grey; background-color: grey;">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Do NOT MOVE, Bitch -->
+    <link rel=" stylesheet" href="bg2.css">
+
+    </html>
